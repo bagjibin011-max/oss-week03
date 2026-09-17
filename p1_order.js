@@ -42,6 +42,6 @@ sleep(10).then(() => console.log("F"));
 console.log("G");
 
 // prediction: A G D C F E B
-// actual:
+// actual: A D G C F E B
 // why I was wrong (one line per miss):
-//
+// D-G: async 함수라고 해서 다 나중에 실행되는 것이 아님. async 함수 안이더라도 await흫 만나기 전까지의 코드는 동기적으로 실행되기 때문에 위에 위치한 D가 먼저 실행된다.
