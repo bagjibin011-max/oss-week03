@@ -41,7 +41,7 @@ sleep(10).then(() => console.log("F"));
 
 console.log("G");
 
-// prediction:
+// prediction: A G D C F E B
 // actual:
 // why I was wrong (one line per miss):
 //
